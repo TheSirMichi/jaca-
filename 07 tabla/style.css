@@ -1,0 +1,18 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+background: black;
+color: white;
+  font-size: 50px;
+  
+}
+button{
+  background: black;
+  color:white;
+  border-color: white;
+  width:100px;
+  height:70px ;
+
+}
