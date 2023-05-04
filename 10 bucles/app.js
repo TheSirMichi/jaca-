@@ -1,20 +1,18 @@
-const valor =()=>{
-  
-  let valor=document.querySelector("#range")
-  let span=document.querySelector("#v")
+
+  let sld=document.querySelector("#valor")
+  let vn=document.querySelector("#vn")
   let div=document.querySelector("#res")
 
-  valor.oninput=()=>{
-    span.innerHTML=valor.value
-    n=parseInt(valor.value)
-    divsHTML:""
+  sld.oninput=()=>{
+    vn.innerHTML=sld.value
+    n=parseInt(sld.value)
+    divs=""
     for(i=1;i<=n;i++){
-      divsHTML+="div class='cajita'>"+i+"</div>"
+      divs+="<div class='cajita'>"+i+"</div>"
     }
-    div.innerHTML=divsHTML
+    div.innerHTML=divs
   }
 
-}
 const borrar=()=>{
   document.querySelector("#res").innerHTML=""
 }

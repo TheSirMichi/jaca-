@@ -1,0 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+span{
+    font-size: 20px;
+    font-weight:bold ;
+    margin: 5 px;
+}

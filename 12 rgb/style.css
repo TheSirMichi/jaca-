@@ -1,0 +1,21 @@
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+table{
+    margin: 30px auto;
+}
+td{
+    padding:50 px;
+}
+span{
+    font-size: 20px;
+    font-weight:bold ;
+    margin: 5 px;
+}

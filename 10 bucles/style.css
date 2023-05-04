@@ -3,11 +3,11 @@
   padding: 0px;
 }
 body{
-background: black;
-color: white;
-  font-size: 50px;
-  
-}
+  background: black;
+ color: white;
+
+    
+  }
 button{
   background: black;
   color:white;
@@ -16,8 +16,14 @@ button{
   height:70px ;
 
 }
+
+div#res{
+  width:500px ;
+  height: 500px;
+  background:white ;
+}
 .cajita{
-  background: blue;
-  width: 200px;
-  height:200px;
+  background: grey;
+  display: inline-block;
+  margin:5px;
 }

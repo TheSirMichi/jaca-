@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicharronera</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body onload="cambiarFondo">
+    <center>
+    <h1>LA CHICHARRONERA</h1><hr>
+    <img src="funcion.png">
+    <table>
+        <tr>
+            <td>a<input type="range" id="r1" value="0" min="0" max="100"><span id="vr1">0</span></td>
+        </tr>
+        <tr>
+             <td>b<input type="range" id="r2" value="0" min="0" max="100"><span id="vr2">0</span></td>
+        </tr>
+        <tr>
+            <td>c<input type="range" id="r3" value="0" min="0" max="100"><span id="vr3">0</span></td>
+        </tr>
+    </table>
+    <br><br>
+    <h3>ECUASION</h3>
+    <div id="valores"> ax<sup>2</sup> + bx + c= 0</div>
+    <br><br>
+    <h3>RESULTADO</h3><br><br>
+<table>
+    <tr>
+        <td>Resultado 1= </td>
+      <td><div id="resultado"></div></td>
+    </tr>
+    <tr>
+        <td>Resultado 2= </td>
+    <td><div id="resultado2"></div></td>
+    </tr>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</table>
+</body>
+</html>

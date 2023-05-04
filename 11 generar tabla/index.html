@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Slider</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body onload="generar()">
+  <center>
+
+<h1>GENERAR TABLA</h1><br>
+<table>
+  <tr>
+  <td>filas</td>
+  <td><input type="range" id="fil" min="1" max="100" value="1" ></td> 
+  <td><span id="vf">1</span></td>
+  </tr>
+  <tr>
+    <td>Columnas</td>
+    <td><input type="range"id="col" min="1" max="100" value="1"  ></td> 
+    <td><span id="vc">1</span></td>
+  </tr>
+  <tr>
+    <td>Color par</td>
+    <td><input type="color" id="cp" ></td> 
+    <td></td>
+  </tr>
+  <tr>
+    <td>Color inpar</td>
+    <td><input type="color"id="ci"  ></td> 
+    <td></td>
+  </tr>
+
+</table>
+<div id="res">
+
+</div>
+<script src="app.js"></script>
+
+<button onclick="borrar()">Borrar</button>
+<script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
