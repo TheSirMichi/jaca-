@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RGB</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CONTA</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body onload="cambiarFondo()" id="body">
+<body>
+    <center>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
             <img src="../img/so (2).jpeg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-            12 RGB
+            15 CONTA
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,30 +25,20 @@
                     </div>
                 </div>
         </div>
+    
     </nav>
-    <h1>RGB</h1><hr>
-    <table>
-        <tr>
-            <td>COLOR 1</td>
-            <td>COLOR 2</td>
-        </tr>
-        <tr>
-            <td>R<input type="range" id="r1" value="0" min="0" max="255"><span id="vr1">0</span></td>
-            <td>R<input type="range" id="r2" value="0" min="0" max="255"><span id="vr2">0</span></td>
-        </tr>
-        <tr>
-            <td>G<input type="range" id="g1" value="0" min="0" max="255"><span id="vg1">0</span></td>
-            <td>G<input type="range" id="g2" value="0" min="0" max="255"><span id="vg2">0</span></td>
-        </tr>
-        <tr>
-            <td>B<input type="range" id="b1" value="0" min="0" max="255"><span id="vb1">0</span></td>
-            <td>B<input type="range" id="b2" value="0" min="0" max="255"><span id="vb2">0</span></td>
-        </tr>
-        <tr>
-            <td id="c1" colspan="2">GRADOS<input type="range" id="grados" value="0" min="0" max="360"><span id="vgrados">0</span></td>
-        </tr>
-    </table>
-    <script src="../js/bootstrap.bundle.min.js"></script>
+
+<div class="container-fluid text-center"></div>
+<div class="card w-25 m-auto"></div>
+<h1 style="font-size: 150px;" id="numero">0</h1>
+    
+    <div class="m-3">
+        <button class=" btn btn-danger" id="menos">-</button>
+        <button class=" btn btn-primary" id="reset">RESET</button>
+        <button class=" btn btn-success" id="mas">+</button>
+    </div>
+   
     <script src="app.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
